@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage ('Build Stage1') {
+        stage ('Build Stage') {
             steps {
-                echo 'This is the building stage of my project.'
+                echo 'This is the building stage of my project.  Working or not?.'
             }
         }
     }
